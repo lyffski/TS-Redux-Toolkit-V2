@@ -11,6 +11,7 @@ interface AddFoodToCustomerPayload {
   id: string;
 }
 
+//setting init state-types
 export interface CustomerState {
   value: Customer[];
 }
